@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Libre Caslon Text
+- Font Author: Copyright 2012 The Libre Caslon Text Project Authors (https://github.com/impallari/Libre-Caslon-Text)
+- Font Source: http://fonts.gstatic.com/s/librecaslontext/v5/DdT878IGsGw1aF1JU10PUbTvNNaDMcq_3eNrHgO1.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
