@@ -4,13 +4,18 @@
   box-sizing: border-box;
 }
 
+:root {
+  --bg-color: #056892;
+  --primary-color: rgb(237, 198, 43);
+}
+
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   height: 100vh;
-  background-color: #eee;
+  background-color: var(--bg-color);
 }
 
 #game__board {
@@ -21,9 +26,10 @@ body {
 }
 
 #game__info {
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 700;
   margin: 15px 0;
+  color: var(--primary-color);
 }
 
 #restart {
@@ -31,7 +37,7 @@ body {
   padding: 10px 15px;
   font-size: 24px;
   border-radius: 10px;
-  background-color: salmon;
+  background-color: var(--primary-color);
   box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.5);
   transition: box-shadow ease-in-out 0.3s;
 }
@@ -43,6 +49,7 @@ body {
 .header {
   font-weight: 900;
   margin-bottom: 50px;
+  color: var(--primary-color);
 }
 
 .square {
@@ -57,7 +64,7 @@ body {
 .circle {
   width: 90px;
   height: 90px;
-  border: 15px solid blueviolet;
+  border: 15px solid var(--primary-color);
   border-radius: 50%;
 }
 
@@ -72,7 +79,7 @@ body {
 .cross::after {
   content: "";
   position: absolute;
-  background-color: red;
+  background-color: var(--primary-color);
 }
 
 .cross::before {
