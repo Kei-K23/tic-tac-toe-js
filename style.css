@@ -7,6 +7,7 @@
 :root {
   --bg-color: #056892;
   --primary-color: rgb(237, 198, 43);
+  --font-main: "monospace";
 }
 
 body {
@@ -16,6 +17,7 @@ body {
   flex-direction: column;
   height: 100vh;
   background-color: var(--bg-color);
+  font-family: var(--font-main);
 }
 
 #game__board {
@@ -28,7 +30,7 @@ body {
 #game__info {
   font-size: 36px;
   font-weight: 700;
-  margin: 15px 0;
+  margin: 30px 0;
   color: var(--primary-color);
 }
 
@@ -40,6 +42,7 @@ body {
   background-color: var(--primary-color);
   box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.5);
   transition: box-shadow ease-in-out 0.3s;
+  margin: 30px 0;
 }
 
 #restart:hover {
