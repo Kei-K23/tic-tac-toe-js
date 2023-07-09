@@ -25,9 +25,43 @@
     <title>Tic-tac-toe</title>
   </head>
   <body>
+    <!-- game choice section  -->
+    <section class="gameChoice">
+      <div>
+        <label for="offline">offline</label>
+        <input type="radio" name="choices" value="offline" id="offline" />
+      </div>
+      <div>
+        <label for="ai">ai</label>
+        <input type="radio" name="choices" value="ai" id="ai" checked />
+      </div>
+    </section>
+
+    <!-- ? need to update this/ game score section  
+   
+      <section class="gameScore">
+      <div>
+        <h2 id="playerOne"></h2>
+        <h2 id="playerScore"></h2>
+      </div>
+      <div>
+        <h2 id="playerTwo"></h2>
+        <h2 id="aiScore"></h2>
+      </div>
+    </section>
+
+    -->
+
+    <!-- show who won the game  -->
     <p id="game__info"></p>
-    <div id="game__board"></div>
-    <button id="restart">Restart</button>
+
+    <!-- main game board  -->
+    <section class="gameBoard">
+      <div id="game__board"></div>
+      <button id="restart">Restart</button>
+    </section>
+
+    <!-- footer section  -->
     <footer>
       <p class="footer__1">
         &copy; 2023 tic-tac-toe@kei-k. All rights reserved.
