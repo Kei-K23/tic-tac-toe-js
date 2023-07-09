@@ -12,12 +12,18 @@
 
 body {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   height: 100vh;
   background-color: var(--bg-color);
   font-family: var(--font-main);
+}
+
+.gameChoice {
+  font-size: 23px;
+  font-weight: 600;
+  margin: 50px 0 50px;
 }
 
 #game__board {
